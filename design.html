@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1 {
+               background-color: black;
+               color:white;
+               text-align: center;
+               border: 1px solid;
+        }
+
+        #div2 { 
+            text-align: center;
+            background-color: cornsilk;
+            border: 1px solid black
+        
+        }
+
+        .blue{
+            background-color: blue;
+            color: white
+        }
+    </style>
+</head>
+<body>
+    <div id = "div1">
+        <h3>Quiz on Important Facts</h3>
+    </div>
+
+    <div id = "div2">
+        <p>Which one of these is a Javascript package manager?</p>
+        <form action="/action_page.php">
+            <input type="radio" id="node.js" name="fav_language" value="Node.js">
+            <label for="Node.js">a : Node.js</label><br>
+            <input type="radio" id="Typescript" name="fav_language" value="Typescript">
+            <label for="Typescript">b : Typescript</label><br>
+            <input type="radio" id="npm" name="fav_language" value="npm">
+            <label for="npm">c : npm</label><br><br>
+            <input type="submit" value="Previous Question" class = "blue"> <input type="submit" value="Next Question" class = "blue">
+            </form>
+    </div>
+</body>
+</html>
