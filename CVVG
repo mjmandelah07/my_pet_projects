@@ -1,0 +1,10 @@
+
+
+# Driver code
+if __name__ == "__main__":
+
+
+    c = Currency_convertor(url)
+    from_country = input("From Country: ")
+    to_country = input("TO Country: ")
+    amount = int(input("Amount: "))
